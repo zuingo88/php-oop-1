@@ -8,6 +8,8 @@ use Illuminate\Http\Request;
 
 class Movie
 {
+    public $title;
+    public $descOpz;
     public function __construct($title, $descOpz = null)
     {
         $this->title = $title;
